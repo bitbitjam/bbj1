@@ -1,5 +1,7 @@
 # bitbitJAM#1  2014 – Conspiracy Theme
 
+Our first jam, with 32 teams creating games for retro hardware!
+
 # rules
 You could work alone or with another friend.
 All game content (art, music, ..) and code must be created in the compo.
@@ -87,3 +89,21 @@ A pretty game on two little sprites shot each other jumping... while fight dolph
 You have to control a boy's life in Brasil who gate-crash in the Worldcup to steal the cup that all the planet wants but that so many hardships, corruption and more poverty brings to a country which doesn't raise.
 
 ### [Check entry and source code](/[MSX]%20Operation%20Brazil%20WC/)
+
+# results
+
+## Best Conspiracy Game
+
+   1. Outland – ZX Studio (ZX Spectrum)
+   2. Hyper Space Postal Service – lubiterum (ZX Spectrum)
+
+## Best platform use
+
+   1. Leovigildo’s Murcian Conspiracy – Pixel Bastards (Genesis)
+   2. Operation Brazil WC – Panochi Games (MSX)
+
+## Funniest Game
+
+   1. Hyper Space Postal Service – lubiterum (ZX Spectrum)
+   2. Cra’k the JAM – Smile Games (ZX Spectrum)
+
