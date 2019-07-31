@@ -9,6 +9,8 @@ All public libraries, middleware, engines are allowed.
 Games must be based on the theme.
 Source code must be included in your entry.
 
+### [Full Rules (archive)](https://web.archive.org/web/20141226061547/http://bitbitjam.com/rules/?date=120614)
+
 # ENTRIES *in upload order*
 ## Junkbots - inx (Megadrive / Genesis)
 
@@ -90,7 +92,8 @@ You have to control a boy's life in Brasil who gate-crash in the Worldcup to ste
 
 ### [Check entry and source code](/[MSX]%20Operation%20Brazil%20WC/)
 
-# results
+
+# Final Classification
 
 ## Best Conspiracy Game
 
