@@ -11,7 +11,8 @@ Source code must be included in your entry.
 # entries
 ## Junkbots (inx - Megadrive / Genesis)
 
-![Alt text](/[MD] Junkbots/ingame.png?raw=true)
+![title](/[MD]%20Junkbots/title.png?raw=true) ![ingame](/[MD]%20Junkbots/ingame.png?raw=true) 
 
 What the heck! The theme of the #bitbitjam has been manipulated. The Mojon have hidden six evidences of conspiracy and you must find them. Support Leobot find evidence of manipulation. 
 
+### [Check entry](/[MD]%20Junkbots/)
