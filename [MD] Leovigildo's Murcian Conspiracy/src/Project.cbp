@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Project" />
+		<Option makefile="C:\megadrive\sgdk\Makefile.gen" />
+		<Option makefile_is_custom="1" />
+		<Option pch_mode="2" />
+		<Option compiler="sega_genesis_compiler" />
+		<Build>
+			<Target title="default">
+				<Option output="out\joytest" prefix_auto="1" extension_auto="1" />
+				<Option object_output="out\" />
+				<Option type="1" />
+				<Option compiler="sega_genesis_compiler" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="src\credits_logo_intro_title_records_control.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\credits_logo_intro_title_records_control.h" />
+		<Unit filename="src\enemies_control.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\enemies_control.h" />
+		<Unit filename="src\flags_control.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\flags_control.h" />
+		<Unit filename="src\init_game.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\init_game.h" />
+		<Unit filename="src\lib_support.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\lib_support.h" />
+		<Unit filename="src\main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\main.h" />
+		<Unit filename="src\players_control.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\players_control.h" />
+		<Unit filename="src\psgplayer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\psgplayer.h" />
+		<Unit filename="src\shots_control.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\shots_control.h" />
+		<Unit filename="src\sram_a.s" />
+		<Unit filename="src\sram_control.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\sram_control.h" />
+		<Unit filename="src\time_control.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\time_control.h" />
+		<Unit filename="src\uncompressed_gfx.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\uncompressed_gfx.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

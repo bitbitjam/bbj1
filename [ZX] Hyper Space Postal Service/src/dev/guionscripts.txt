@@ -1,0 +1,6 @@
+# flags:
+# 1	-  el contador de disketes
+# 2 -  el hilo de la historia (0: intro en la nave en el espacio, 1: conversacion en la nave, 2: sale ellen gritando, 
+#       3: conversacion tras rescatar a ellen, 4: conversacion tras recuperar el combustible, 
+#       5: el ordenador nos dice que volvamos a la nave tras recuperar el diskete, 6: llegas a la nave y conversacion
+#       7: tras eskivar todo le metes el diskete a la nave, 8: texto cabron del capitan, 9: final

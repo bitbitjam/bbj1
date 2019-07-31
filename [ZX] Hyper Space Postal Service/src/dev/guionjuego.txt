@@ -1,0 +1,29 @@
+
+
+
+tiles que faltan:
+
+
+en los normales
+- (OK) un tile para un ordenador
+- (OK) disquetes azules para coger en vez de la caja
+- (OK) disquetes rojos como llave
+- (OK) cerradura rollo disquetera
+- (OK) tile de puerta de persiana como si fuese un garage
+- (OK) bombonas
+- (OK) armarios (2 tiles)
+- (OK) tile para otro tipo de plataforma que se pueda subir por debajo
+
+
+
+decoracion
+- (OK) las patas de la nave: 1 tile (no se como hacerlo)
+- (OK) los cuatro tiles de las 4 esquinas del tile blanco para poder cerrarlo y ke no se vea feo 
+- (OK) 1 o 2 tiles para los mandos de la nave nuestra
+- (hay 1) varios tiles de cableado suelto (2 o 3 tiles)
+- (OK) ventilador en 2 posiciones (para poder moverlo cada x segundos y ke kede rollo animao
+- (OK) tile de las naves de arriba en el hangar (4 tiles, una nave 32 x 32)
+- (OK) paneles solares
+- (OK) puerta adorno
+
+

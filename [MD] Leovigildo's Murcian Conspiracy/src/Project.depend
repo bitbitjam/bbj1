@@ -1,0 +1,64 @@
+# depslib dependency file v1.0
+1392316367 source:/home/jalon/src/antarex/FANTASY_BATTLE/src/credits_logo_intro_screens.c
+	"genesis.h"
+	"main.h"
+
+1393504655 /home/jalon/src/antarex/FANTASY_BATTLE/src/main.h
+	"genesis.h"
+	"lib_support.h"
+	"uncompressed_gfx.h"
+	"title_menu_records_screens.h"
+	"init_game.h"
+	"players_control.h"
+	"shots_control.h"
+	"credits_logo_intro_screens.h"
+	"qrlib.h"
+	"sram_control.h"
+	"mb_title.h"
+
+1393432549 /home/jalon/src/antarex/FANTASY_BATTLE/src/lib_support.h
+
+1393352889 /home/jalon/src/antarex/FANTASY_BATTLE/src/uncompressed_gfx.h
+
+1392229996 /home/jalon/src/antarex/FANTASY_BATTLE/src/title_menu_records_screens.h
+
+1391626771 /home/jalon/src/antarex/FANTASY_BATTLE/src/init_game.h
+
+1388680166 /home/jalon/src/antarex/FANTASY_BATTLE/src/players_control.h
+
+1390850089 /home/jalon/src/antarex/FANTASY_BATTLE/src/shots_control.h
+
+1391252148 /home/jalon/src/antarex/FANTASY_BATTLE/src/credits_logo_intro_screens.h
+
+1393504751 /home/jalon/src/antarex/FANTASY_BATTLE/src/qrlib.h
+
+1393356550 /home/jalon/src/antarex/FANTASY_BATTLE/src/sram_control.h
+
+1393432926 source:/home/jalon/src/antarex/FANTASY_BATTLE/src/init_game.c
+	"genesis.h"
+	"main.h"
+
+1393432499 source:/home/jalon/src/antarex/FANTASY_BATTLE/src/lib_support.c
+	"genesis.h"
+	"main.h"
+
+1390935501 source:/home/jalon/src/antarex/FANTASY_BATTLE/src/players_control.c
+	"main.h"
+
+1391109440 source:/home/jalon/src/antarex/FANTASY_BATTLE/src/shots_control.c
+	"main.h"
+
+1393354850 source:/home/jalon/src/antarex/FANTASY_BATTLE/src/sram_a.s
+
+1393356902 source:/home/jalon/src/antarex/FANTASY_BATTLE/src/sram_control.c
+	"genesis.h"
+	"main.h"
+
+1393433281 source:/home/jalon/src/antarex/FANTASY_BATTLE/src/title_menu_records_screens.c
+	"genesis.h"
+	"main.h"
+
+1393352889 source:/home/jalon/src/antarex/FANTASY_BATTLE/src/uncompressed_gfx.c
+	"main.h"
+	"uncompressed_gfx.h"
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="159" height="32" tilewidth="16" tileheight="16">
+ <properties>
+  <property name="lock" value="15"/>
+ </properties>
+ <tileset firstgid="1" name="work" tilewidth="16" tileheight="16">
+  <image source="../gfx/work.png" width="256" height="48"/>
+ </tileset>
+ <tileset firstgid="49" name="sprites" tilewidth="16" tileheight="16">
+  <image source="../gfx/sprites.png" width="256" height="32"/>
+ </tileset>
+ <layer name="map" width="159" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzt1tEKwjAQRNFtlIo+1///VRFbWEtCahrcXjqBJVQ5dqKDOpjZ0Di2w8rLj+Ds8myv7slH+R7da32N6LPLx/rU4d63jtmv9ulybt9z9kdmot/7s/tL5fmxsPt79+zeVNlbzv7u2T0z0e/92X2te7fC7u/9z+5NFb8e3zv/uLoX71u7l+Z7Jzfebbm2jN3avaly9uV3dd05de84Ptc934dc99LsbN6XebrZcu19apjS2UvfderesXzLZ770xey7e79OD5/Ll/tvp/97x/RaWhEruvfy5/Xk7PJsT84uz/bk7PJsT84uz/bk7PJsT84uz/bk7PJsT84uz/bk7PJ8r6UVsaJ7L39eT84uz/bk7PJsT84uz/bk7PJsT84uz/bk7PJsT84uz/bk7PJsT84uz/YvSj0VhA==
+  </data>
+ </layer>
+ <objectgroup name="enems" width="159" height="32" visible="0"/>
+</map>

@@ -1,0 +1,23 @@
+XL
+H 6 areas 3 global symbols
+S _main Ref0000
+S .__.ABS. Def0000
+A _CODE size 0 flags 0 addr 0
+A _HEADER size 0 flags 8 addr 0
+A _HEADER0 size 4D flags 8 addr 4000
+S find_rom_page_2 Def401F
+A _DATA size 0 flags 0 addr 0
+A _GSINIT size 0 flags 0 addr 0
+A _GSFINAL size 0 flags 0 addr 0
+T 00 40 41 42 10 40 00 00 00 00 00 00 00 00 00 00
+R 00 00 02 00 00 04 02 00
+T 0E 40 00 00 F3 ED 7B 4A FC FB CD 1F 40 CD 00 00
+R 00 00 02 00 00 0B 02 00 02 0E 00 00
+T 1C 40 CD 00 00 21 00 40 46 AF 77 7E B7 20 02 70
+R 00 00 02 00
+T 2A 40 C9 F3 CD 38 01 0F 0F E6 03 4F 21 C1 FC 85
+R 00 00 02 00
+T 38 40 6F 7E E6 80 B1 4F 2C 2C 2C 2C 7E E6 0C B1
+R 00 00 02 00
+T 46 40 26 80 CD 24 00 FB C9
+R 00 00 02 00

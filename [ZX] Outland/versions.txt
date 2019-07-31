@@ -1,0 +1,8 @@
+0.2 - 
+Actualizado el leeme.txt
+Añadido el source que faltaba en la version anterior
+Sustituidos 4 tiles que al final no se usaron para meter más decoración
+Actualizado el mapa con la decoración de los tiles extras
+
+0.1 - 
+Version inicial

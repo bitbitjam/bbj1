@@ -1,0 +1,78 @@
+
+
+- al cambiar jugadores se jode animacion de chocar disparos
+- al chocar el jugador en la parte de arriba de la pantalla hace cosas raras
+
+
+- arma elfo lado
+- juntar alguna fuente pq hay muchas
+
+
+- en estado intermedio de destruccion, mas casos de tiles bonitos
+- tiles bonitos, multitiles para todo
+
+
+- mas disparos (4?), pero primero power ups
+
+
+- movimiento 6 direcciones
+- disparos en 6 direcciones
+- bonus a lo donkey
+
+modos:
+arcade
+battle (mosts kills, capture the flag, destroy the cristals)
+editor
+
+items: 
+anillo invisible 
+OK - andar agua
+power up disparo (x3: incrementa velocidad, 2 disparos, destruye muros)
+escudo personaje
+escudo cristal
+para enemigos
+invierte control
+paraliza
+
+
+- enemigos
+- jefes
+
+- fases: castillo, campo verde, montaña, desierto, 
+	multi: matadero, oh mummy, espacio, robots
+
+
+
+
+
+
+
+
+
+
+
+
+- jugar solo no esta mal
+- jugar dos esta mejor
+- jugar tres mola mas
+- pero jugar cuatro es la leche!
+
+- Fantasy Battle
+- juego arcade sencillo multiplayer para 4 jugadores
+con el probar rutinas para juegos futuros mas complejos
+- inspirado en battle city de nes
+
+- novedades respecto a oh mummy
+- motor desde cero
+- colisiones reales con escenario
+- uso del sega tap 1 y 2
+- motor de sonido vgm y psg 
+- uso de hilight/shadow
+- uso de sram
+- logros
+- ranking online con QR
+- modo arcade y multiplayer
+- editor de fases
+- modo multiplayer con 3 modos, mayor numero de muertes, coger banderas
+y destruir la base contraria en solitario o formando equipos
+- salida esperada para agosto

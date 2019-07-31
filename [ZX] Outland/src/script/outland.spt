@@ -1,0 +1,242 @@
+# Juego
+# Churrera Script
+
+# flags:
+# 0 - Mission start
+# 1	- Welcome with the manager
+# 2 - Welcome comisaria, searching doctor
+# 3 - Welcome Hospital
+# 5 - Charla 2 con la doctora en el hospital
+# 6 - ALIJO ENCONTRADO
+# 9 - item counter
+
+#Externs
+#1 Charla director
+#2 "No tengo nada más que decirle"
+
+ENTERING_GAME
+	IF TRUE
+	THEN
+		SET FLAG 0 = 0
+		SET FLAG 1 = 0
+		SET FLAG 2 = 0
+		SET FLAG 3 = 0
+		SET FLAG 4 = 0
+		SET FLAG 5 = 0
+		SET FLAG 6 = 0
+		SET FLAG 7 = 0
+		SET FLAG 8 = 0
+		SET FLAG 9 = 0
+		SET FLAG 10 = 0
+		SET FLAG 11 = 0
+		SET FLAG 12 = 0
+		SET FLAG 13 = 0
+		SET FLAG 14 = 0
+	END
+END
+
+## Llegada en la nave
+
+ENTERING SCREEN 9
+	IF FLAG 0 = 0
+	THEN
+		SET_FIRE_ZONE 0, 0, 64, 64
+	END
+END
+
+PRESS_FIRE AT SCREEN 9
+	IF FLAG 0 = 0
+	THEN
+		SET FLAG 0 = 1
+		EXTERN 4
+		REDRAW
+	END
+END
+
+#Charla director
+ENTERING SCREEN 1
+	IF FLAG 1 = 1
+	THEN
+		#Tras hablar con el manager quitamos la puerta a la comisaria
+		SET TILE (1, 9) = 45 
+	END
+	IF FLAG 1 = 0
+	THEN
+		SET_FIRE_ZONE 100, 70, 132, 102		
+	END
+	IF FLAG 6 = 1
+	THEN
+		SET TILE (0,3) = 45
+	END
+END
+
+
+PRESS_FIRE AT SCREEN 1
+	#Hablar con el director
+	IF FLAG 1 = 0
+	THEN
+		SET FLAG 1 = 1
+		EXTERN 1
+		REDRAW
+		SET TILE (1, 9) = 45 
+	END
+END
+
+
+ENTERING SCREEN 7
+	IF FLAG 1 > 0
+	THEN
+		#Tras hablar con el manager quitamos la puerta a la comisaria
+		SET TILE (0, 4) = 45 
+	END
+	IF FLAG 3 = 1
+	THEN
+		#Tras hablar con la doctora quitamos la puerta a los barracones
+		SET TILE (6, 9) = 45 
+		SET TILE (7, 9) = 45
+		SET TILE (8, 9) = 45    
+	END
+END
+
+# Charla en la comisaria
+ENTERING SCREEN 11
+	IF FLAG 3 = 1
+	THEN
+		#Tras hablar con la doctora quitamos la puerta a los barracones
+		SET TILE (14, 7) = 45 
+		SET TILE (14, 8) = 45 
+	END
+	IF FLAG 2 = 0
+	THEN
+		SET_FIRE_ZONE 79, 47, 127, 95		
+	END
+	IF FLAG 2 = 1
+	THEN
+		#Abrir puerta al hospital
+		SET TILE (6, 9) = 45
+		SET TILE (7, 9) = 45
+	END
+END
+
+PRESS_FIRE AT SCREEN 11
+	#Hablar con el ayudante
+	IF FLAG 2 = 0
+	THEN
+		SET FLAG 2 = 1
+		EXTERN 2
+		REDRAW
+		#Abrir puerta al hospital
+		SET TILE (6, 9) = 45
+		SET TILE (7, 9) = 45 
+	END
+END
+
+# Charla en el hospital
+ENTERING SCREEN 15
+	IF FLAG 3 = 0
+	THEN
+		SET_FIRE_ZONE 175, 63, 199, 95		
+	END
+	IF FLAG 3 = 1
+	THEN
+		SET TILE (1,2) = 36
+		SET TILE (12,4) = 29
+	END
+	IF FLAG 3 = 1
+	IF FLAG 4 = 0
+	THEN
+		SET_FIRE_ZONE 0, 0, 63, 47
+	END
+END
+
+PRESS_FIRE AT SCREEN 15
+	#Hablar con la MEDICO 2
+	IF FLAG 3 = 1
+	IF FLAG 4 = 0
+	IF PLAYER_HAS_OBJECTS
+	THEN
+		SET FLAG 4 = 1
+		EXTERN 6
+		REDRAW
+	END
+	
+	#Hablar con la MEDICO 1
+	IF FLAG 3 = 0
+	THEN
+		SET FLAG 3 = 1
+		EXTERN 3
+		REDRAW
+	END
+END
+
+ENTERING SCREEN 3
+	IF FLAG 3 = 1
+	THEN
+		#Tras hablar con la doctora quitamos la puerta a la cocina
+		SET TILE (3, 4) = 45 
+	END
+END
+
+#Alijo
+ENTERING SCREEN 5
+	IF FLAG 6 = 0
+	THEN
+		SET_FIRE_ZONE 16, 16, 95, 95		
+	END
+END
+
+PRESS_FIRE AT SCREEN 5
+	IF FLAG 6 = 0
+	THEN
+		SET FLAG 6 = 1
+		EXTERN 7
+		REDRAW
+	END
+END
+
+ENTERING SCREEN 0
+	IF FLAG 4 = 1
+#	IF PLAYER_HAS_OBJECTS
+	THEN
+		SET TILE (4,5) = 5
+	END
+END
+
+ENTERING SCREEN 6
+	IF FLAG 4 = 1
+#	IF PLAYER_HAS_OBJECTS
+	THEN
+		SET TILE (0,1) = 5
+	END
+END
+
+
+# End Game
+ENTERING SCREEN 14
+	IF OBJECT_COUNT = 20
+	IF FLAG 7 = 0
+	# Tenemos todos los viales
+	THEN
+		SET TILE (7, 4) = 5 
+		SET TILE (8, 4) = 37
+		SET TILE (11, 4) = 5
+		SET_FIRE_ZONE 112, 64, 144, 80		
+	END
+	IF FLAG 7 = 1
+		SET TILE (8, 4) = 5
+	THEN
+	END
+END
+
+PRESS_FIRE AT SCREEN 14
+	IF OBJECT_COUNT = 20
+	IF FLAG 7 = 0
+	THEN
+		SET FLAG 7 = 1
+		EXTERN 8
+		SET TILE (8, 4) = 5
+		REDRAW
+	END
+END
+
+

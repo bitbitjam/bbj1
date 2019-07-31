@@ -1,0 +1,289 @@
+# Juego
+# Churrera Script
+
+# flags:
+
+
+ENTERING SCREEN 0
+   IF FLAG 1 = 1
+   THEN
+   SET TILE (2, 7) = 11
+   END
+; Coge primer cuadro
+   IF FLAG 1 = 0
+   THEN
+   SET TILE (2, 7) = 10
+   ; cuadrado del punto 2 y 7
+   ; por 16 y mas menos 15
+   ; primer valor menos, segundo menos, tercero mas
+   SET_FIRE_ZONE 17, 97, 47, 127
+   END
+   IF FLAG 1 = 1
+   SET TILE (2, 7) = 11
+   END
+END
+
+PRESS_FIRE AT SCREEN 0
+   IF FLAG 1 = 0
+   IF PLAYER TOUCHES 2, 7
+   THEN
+   SOUND 7
+   SET FLAG 1 = 1
+   SET TILE (2, 7) = 11
+   ; Puntua 100 pts
+   EXTERN 15
+END
+END
+
+ENTERING SCREEN 6
+   IF FLAG 2 = 1
+   THEN
+   SET TILE (9, 3) = 11
+   END
+; Coge segundo cuadro
+   IF FLAG 2 = 0
+   THEN
+   SET TILE (9, 3) = 10
+   ; por 16 y mas menos 15
+   ; primer valor menos, segundo menos, tercero mas, cuarto mas
+   SET_FIRE_ZONE 129, 33, 159, 63
+   END
+END
+
+PRESS_FIRE AT SCREEN 6
+   IF FLAG 2 = 0
+   IF PLAYER TOUCHES 9, 3
+   THEN
+   SOUND 7
+   SET FLAG 2 = 1
+   SET TILE (9, 3) = 11
+   ; Puntua 100 pts
+   EXTERN 15
+END
+END
+
+ENTERING SCREEN 8
+   IF FLAG 3 = 1
+   THEN
+   SET TILE (7, 6) = 11
+   END
+; Coge tercer cuadro
+   IF FLAG 3 = 0
+   THEN
+   SET TILE (7, 6) = 10
+   ; por 16 y mas menos 15
+   ; primer valor menos, segundo menos, tercero mas, cuarto mas
+   SET_FIRE_ZONE 97, 81, 127, 111
+   END
+END
+
+PRESS_FIRE AT SCREEN 8
+   IF FLAG 3 = 0
+   IF PLAYER TOUCHES 7, 6
+   THEN
+   SOUND 7
+   SET FLAG 3 = 1
+   SET TILE (7, 6) = 11
+   ; Puntua 100 pts
+   EXTERN 15
+END
+END
+
+
+ENTERING SCREEN 10
+   IF FLAG 4 = 1
+   THEN
+   SET TILE (4, 7) = 11
+   END
+; Coge cuarto cuadro
+   IF FLAG 4 = 0
+   THEN
+   SET TILE (4, 7) = 10
+   ; por 16 y mas menos 15
+   ; primer valor menos, segundo menos, tercero mas, cuarto mas
+   SET_FIRE_ZONE 49, 97, 79, 127
+   END
+END
+
+PRESS_FIRE AT SCREEN 10
+   IF FLAG 4 = 0
+   IF PLAYER TOUCHES 4, 7
+   THEN
+   SOUND 7
+   SET FLAG 4 = 1
+   SET TILE (4, 7) = 11
+   ; Puntua 100 pts
+   EXTERN 15
+END
+END
+
+ENTERING SCREEN 15
+   IF FLAG 5 = 1
+   THEN
+   SET TILE (7, 2) = 11
+   END
+; Coge cuarto cuadro
+   IF FLAG 5 = 0
+   THEN
+   SET TILE (7, 2) = 10
+   ; por 16 y mas menos 15
+   ; primer valor menos, segundo menos, tercero mas, cuarto mas
+   SET_FIRE_ZONE 97, 17, 127, 47
+   END
+END
+
+PRESS_FIRE AT SCREEN 15
+   IF FLAG 5 = 0
+   IF PLAYER TOUCHES 7, 2
+   THEN
+   SOUND 7
+   SET FLAG 5 = 1
+   SET TILE (7, 2) = 11
+   ; Puntua 100 pts
+   EXTERN 15
+END
+END
+
+ENTERING SCREEN 16
+   IF FLAG 6 = 1
+   THEN
+   SET TILE (4, 7) = 11
+   END
+; Coge cuarto cuadro
+   IF FLAG 6 = 0
+   THEN
+   SET TILE (4, 7) = 10
+   ; por 16 y mas menos 15
+   ; primer valor menos, segundo menos, tercero mas, cuarto mas
+   SET_FIRE_ZONE 49, 97, 79, 127
+   END
+END
+
+PRESS_FIRE AT SCREEN 16
+   IF FLAG 6 = 0
+   IF PLAYER TOUCHES 4, 7
+   THEN
+   SOUND 7
+   SET FLAG 6 = 1
+   SET TILE (4, 7) = 11
+   ; Puntua 100 pts
+   EXTERN 15
+END
+END
+
+ENTERING SCREEN 18
+   IF FLAG 7 = 1
+   THEN
+   SET TILE (11, 3) = 11
+   END
+; Coge cuarto cuadro
+   IF FLAG 7 = 0
+   THEN
+   SET TILE (11, 3) = 10
+   ; por 16 y mas menos 15
+   ; primer valor menos, segundo menos, tercero mas, cuarto mas
+   SET_FIRE_ZONE 161, 33, 191, 63
+   END
+END
+
+PRESS_FIRE AT SCREEN 18
+   IF FLAG 7 = 0
+   IF PLAYER TOUCHES 11, 3
+   THEN
+   SOUND 7
+   SET FLAG 7 = 1
+   SET TILE (11, 3) = 11
+   ; Puntua 100 pts
+   EXTERN 15
+END
+END
+
+ENTERING SCREEN 23
+   IF FLAG 8 = 1
+   THEN
+   SET TILE (9, 7) = 11
+   END
+; Coge cuarto cuadro
+   IF FLAG 8 = 0
+   THEN
+   SET TILE (9, 7) = 10
+   ; por 16 y mas menos 15
+   ; primer valor menos, segundo menos, tercero mas, cuarto mas
+   SET_FIRE_ZONE 129, 97, 159, 127
+   END
+END
+
+PRESS_FIRE AT SCREEN 23
+   IF FLAG 8 = 0
+   IF PLAYER TOUCHES 9, 7
+   THEN
+   SOUND 7
+   SET FLAG 8 = 1
+   SET TILE (9, 7) = 11
+   ; Puntua 100 pts
+   EXTERN 15
+END
+END
+
+
+ENTERING SCREEN 22
+   IF FLAG 9 = 1
+   THEN
+   SET TILE (4, 7) = 11
+   END
+ Coge cuarto cuadro
+   IF FLAG 9 = 0
+   THEN
+   SET TILE (4, 7) = 10
+   ; por 16 y mas menos 15
+   ; primer valor menos, segundo menos, tercero mas, cuarto mas
+   SET_FIRE_ZONE 49, 97, 79, 127
+   END
+END
+
+PRESS_FIRE AT SCREEN 22
+   IF FLAG 9 = 0
+   IF PLAYER TOUCHES 4, 7
+   THEN
+   SOUND 7
+   SET FLAG 9 = 1
+   SET TILE (4, 7) = 11
+   ; Puntua 100 pts
+   EXTERN 15
+END
+END
+
+ENTERING SCREEN 24
+; chequeo de flags para abrir la cerradura
+   IF FLAG 1 = 1
+   IF FLAG 2 = 1
+   IF FLAG 3 = 1
+   IF FLAG 4 = 1
+   IF FLAG 5 = 1
+   IF FLAG 6 = 1
+   IF FLAG 7 = 1
+   IF FLAG 8 = 1
+   IF FLAG 9 = 1
+   THEN
+   ;borramos la cerradura de prueba en la primera pantalla
+   SET TILE (5, 8) = 0
+   SOUND 9
+   END
+END
+
+ENTERING SCREEN 25
+    IF TRUE
+    THEN
+        SET_FIRE_ZONE 65, 97, 127, 143
+        SET TILE (5, 8) = 30
+    END
+END
+    
+PRESS_FIRE AT SCREEN 25
+    ; tienes todos los IF PLAYER_TOUCHES mal, te falta la _
+    IF PLAYER_TOUCHES 5, 8
+    THEN
+        WIN GAME
+    END
+END
+
